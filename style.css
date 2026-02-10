@@ -169,14 +169,15 @@ body {
 .text {
   position: absolute;
   color: var(--text);
-  font-size: 30px;
+  font-size: 26px;
   font-family: "Pacifico", cursive;
   text-align: center;
-  width: 380px;
-  left: 10px;
-  top: 320px;
-  z-index: 3;
+  width: 100%;
+  left: 0;
+  top: 110px; /* ✅ внутри карточки */
+  z-index: 10;
   transition: 0.3s;
+  padding: 0 10px;
 }
 
 .text.active span {
